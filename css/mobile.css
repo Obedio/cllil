@@ -1,0 +1,12 @@
+@media screen and(max-width: 481px){
+	body{
+		font-size: 5em;
+		color: green;
+	}
+	.text-gray{
+		color: rgba(245,245,245, 1);
+	}
+	.text-gray:hover{
+		color: green;
+	}
+}
