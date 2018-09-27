@@ -1,5 +1,9 @@
+body{
+	background: url('../imagens/trianglify-4.svg') no-repeat;
+	background-size: cover;
+}
 .font-own{
-	font-family: 'Quicksand', sans-serif;
+	font-family: 'Titillium Web', sans-serif;
 }
 nav{
 	min-height: 40px;
@@ -16,10 +20,7 @@ nav{
 	background-color: rgba(245,245,245, 1);
 }
 .bg-padrao3{
-	background-color: rgba(229,229,58, 0.4);
-}
-.bg-padrao31{
-	background: blue;
+	background-color: rgba(245,245,245, 0.2) !important;
 }
 .bg-gray{
 	background-color: rgba(245,245,245, 1);
@@ -43,7 +44,7 @@ nav{
 	color: rgba(229,229,58, 1);
 }
 .linha{
-	border-top: 3px solid #08548C;
+	border-top: 3px solid white;
 	width: 100px;
 	margin: 25px auto;
 }
@@ -67,18 +68,30 @@ nav{
 	height: 350px;
 	font-family: 'Overlock', cursive;
 }
+.font-title{
+	font-family: 'Overlock', cursive;
+}
+.size-title{
+	font-size: 2em;
+}
 #frases{
 	font-family: 'Shadows Into Light', cursive;
 	font-size: 30px;
 	padding-top: 3%;
 	padding-right: 6%;
 }
+#welcome{
+	background-color: rgba(245,245,245, 0.1);
+}
 .card-image{
 	width: 100%;
 	height:200px;
 }
-.own-card {
-	min-height: 587px;
+.own-card-first {
+	min-height: 730px;
+}
+.own-card-second{
+	min-height: 420px;
 }
 
 @media (max-width: 400px){
