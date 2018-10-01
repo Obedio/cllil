@@ -14,17 +14,17 @@
 	</head>
 	<body class="font-own">
 		<div class="row m-0"> <!-- ROW DO HEADER E CABEÇALHO-->
-			<nav class="container-fluid navbar bg-padrao1 navbar-expand-md p-0 m-0">
+			<nav class="container-fluid navbar navbar-expand-md p-0 m-0">
 				<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
 					<span class="icone navbar-toggler-icon text-gray "><i class="fas fa-align-justify fa-2x fa-fw"></i></span>
 				</button>
 				<div class="collapse navbar-collapse" id="navbarNavAltMarkup">
 					<div class="mx-auto  navbar-nav">
-					    <a class="nav-item nav-link text-gray bg-padrao1-1 " href="inicio.html">Início</a>
-						<a class="nav-item nav-link  active text-padrao1 bg-gray" href="#">Inglês<span class="sr-only">(current)</span></a>
-						<a class="nav-item nav-link text-gray bg-padrao1-1" href="libras.html">LIBRAS</a>
-						<a class="nav-item nav-link text-gray bg-padrao1-1" href="noticias.html">Notícias</a>
-						<a class="nav-item nav-link text-gray bg-padrao1-1" href="editais-e-resultados.html">Editais, Resultados & Formulários</a>
+					    <a class="nav-item nav-link text-gray bg-nav" href="inicio.html">Início </a>
+						<a class="nav-item nav-link active text-padrao1 bg-nav-active" href="#">Inglês <span class="sr-only">(current)</span></a>
+						<a class="nav-item nav-link text-gray bg-nav" href="libras.html">LIBRAS</a>
+						<a class="nav-item nav-link text-gray bg-nav" href="noticias.html">Notícias</a>
+						<a class="nav-item nav-link text-gray bg-nav" href="editais-e-resultados.html">Editais, Resultados & Formulários</a>
 					</div>
 				</div>
 			</nav>
@@ -54,16 +54,16 @@
 			<div class="row ">  <!-- ROW PRINCIPAL DO MEIO -->
 				<div class="col-md-9 col-sm-12">  <!-- COL CONTEUDO PRINCIPAL-->
 					<div class="row mx-3">
-						<div class="my-3 w-100 card shadow text-center" id="welcome">
-							<div class="card-body p-3 rounded text-center text-light">
+						<div class="my-3 w-100 card shadow text-center bg-gray">
+							<div class="card-body p-3 rounded text-center text-padrao2">
 								<h5 class="card-title font-title size-title">O Curso Livre de Inglês</h5>
 								<p class="text-justify">
 								O Curso de Língua Inglesa é presencial e composto por 7 semestres (3 anos e meio) que permitem aos alunos desenvolverem as quatro habilidades básicas <strong>(ouvir, compreender, falar e escrever)</strong> através do Método Comunicativo, este é um método para o ensino de línguas, que enfatiza a interação como meio de ensino como também o seu objetivo final. 
 								Atualmente trabalhamos com os seguintes livros da editora Richmond: English ID<br>
 								1º Nível English ID Starter |
-								2º Nível English ID 1A |
+								2º Nível English ID 1A |   
 								3º Nível English ID 1B |                          
-								4º Nível English ID 2A |                          
+								4º Nível English ID 2A |  <br>                        
 								5º Nível English ID 2B |                           
 								6º Nível English ID 3A |                           
 								7º Nível English ID 3B  
@@ -73,9 +73,9 @@
 						<div class="w-100 text-center my-3">
 							<h5 class="font-title size-title text-light">Horário das Turmas em 2018.2</h5>
 						</div>
-						<div class="row w-100 m-0">
+						<div class="row w-100 m-0"> <!-- CARD DAS TURMAS -->
 							<div class="col-md-6 col-sm-12 m-0 p-0 mb-3">
-								<div  class="card  bg-padrao3 text-light shadow">
+								<div  class="card  bg-gray text-padrao2 shadow mr-2">
 									<div class="card-body">
 										<div class="card-header text-center">
 											<h4 class="font-title">Nível 1</h4>
@@ -96,7 +96,7 @@
 								</div>
 							</div>
 							<div class="col-md-6 col-sm-12 p-0 mb-3">
-								<div class="card  bg-padrao3 text-light shadow">
+								<div class="card  bg-gray text-padrao2 shadow ml-2" style="min-height: 560px">
 								  <div class="card-body">
 								  	<div class="card-header text-center">
 								  		<h4 class="font-title">Nível 2</h4>
@@ -113,8 +113,8 @@
 						</div>
 					</div>
 				</div>  <!-- FINAL COL CONTEUDO PRINCIPAL-->
-				<div class="col-md-3 d-none d-md-block d-lg-none d-lg-block d-xl-none d-xl-block"> <!-- CONTEUDO SIDEBAR-->			
-					<div class="w-100 bg-gray my-3 rounded p-2 text-padrao2">
+				<div class="col-md-3 d-none d-md-block d-lg-none d-lg-block d-xl-none d-xl-block"> <!-- CONTEUDO SIDEBAR-->	
+					<div class="w-100 bg-sidebar my-3 rounded p-2 text-padrao2">
 						<h5 class="font-title text-center">Fale Conosco</h5>
 						<hr>
 						<p class="text-justify">
@@ -123,7 +123,12 @@
 							<span><i class="fas fa-user-clock fa-1x fa-fw"></i>Horário de Atendimento de segunda à sexta das 14h às 18</span>
 						</p>
 					</div>
-					<div class="w-100 bg-gray my-3 rounded p-2 text-padrao2">
+					<div class="row m-0 p-0 w-100">
+						<div class="col-sm-12 text-center m-0 p-0">
+							<a class="btn btn-primary btn-lg w-100 m-0" href="#" role="button">Baixar o último Edital</a>
+						</div>
+					</div>
+					<div class="w-100 bg-sidebar my-3 rounded p-2 text-padrao2">
 						<h5 class="font-title text-center">Últimas Notícias</h5>
 						<hr>
 						<div class="card w-100 mb-3">
@@ -160,12 +165,6 @@
 				</div><!-- FINAL CONTEUDO SIDEBAR-->	
 			</div> <!-- FINAL ROW PRINCIPAL DO MEIO -->
 		</div> <!-- FINAL CONTAINER PRINCIPAL-->		
-
-		<div class="row m-0 p-0">
-				<div class="col-sm-12 text-center">
-					<a class="btn btn-primary btn-lg" href="#" role="button">Baixar o último Edital</a>
-				</div>
-		</div>
 		<footer class="page-footer font-small bg-padrao1 text-light"> <!-- Rodape !-->
 			<div class="container-fluid text-center text-md-left">
 				<div class="container">
