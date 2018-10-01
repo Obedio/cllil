@@ -7,23 +7,33 @@ body{
 }
 nav{
 	min-height: 40px;
+	background-color: rgba(191,33,30, 1);
+}
+footer{
+	background-color: rgba(191,33,30, 1);
 }
 .icone{
 	min-width: 45px;
 	min-height: 45px;
 }
-.bg-padrao1{
+.bg-nav{
 	background-color: rgba(191,33,30, 0.8);
 }
 
-.bg-padrao1-1:hover{
+.bg-nav:hover{
 	background-color: rgba(245,245,245, 1);
 }
 .bg-padrao3{
 	background-color: rgba(191,33,30, 0.2) !important;
 }
 .bg-gray{
+	background-color: rgba(245,245,245, 0.8) !important;
+}
+.bg-nav-active{
 	background-color: rgba(245,245,245, 1);
+}
+.bg-sidebar{
+	background-color: rgba(245,245,245, 0.9)
 }
 .text-padrao1{
 	color: #BF211E;
@@ -79,9 +89,6 @@ nav{
 	font-size: 30px;
 	padding-top: 3%;
 	padding-right: 6%;
-}
-#welcome{
-	background-color: rgba(245,245,245, 0.1);
 }
 .card-image{
 	width: 100%;
