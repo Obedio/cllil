@@ -103,9 +103,3 @@ footer{
 .own-card-second{
 	min-height: 420px;
 }
-
-@media (max-width: 400px){
-	html{
-		font-size: 14px	
-	}
-}
