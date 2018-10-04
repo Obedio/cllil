@@ -41,11 +41,8 @@
 	.font-size-title{
 		font-size: 1.5em;
 	}
-	.font-title{
+	.footer-font-title{
 		font-size: 1.2em;
-	}
-	.font-title > p{
-		font-size: 1em;
 	}
 	.nav-own a{
 		padding-left: 3px;
