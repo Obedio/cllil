@@ -33,13 +33,16 @@ nav{
 	background-image: linear-gradient(to right, transparent 15%, #08548C 90%);
 	background-repeat: no-repeat;
 }
+#row-middle{
+		margin-right: 16px;
+	}
 #texto-banner{
 	height: 350px;
 	font-family: 'Overlock', cursive;
 }
 #texto-banner h1{
 	font-size: 3em;
-padding:0;
+	padding:0;
 }
 #texto-banner h2{
 	font-size: 2em;
@@ -70,6 +73,9 @@ padding:0;
 }
 .display-6{
 	font-size: 1.5em !important;
+}
+.footer-logo{
+	width: 100px;
 }
 .font-own{
 	font-family: 'Titillium Web', sans-serif;

@@ -6,11 +6,15 @@
 	#banner, #overlay {
 		max-height: 150px;
 	}
+
 	#logo-banner{
 		padding-top: 20px; 
 		width: 80%; 
 		height: 80%;
 		margin-top: 0;
+	}
+	#row-middle{
+		margin: 0 2px;
 	}
 	#texto-banner{
 		height: 150px;
@@ -31,10 +35,25 @@
 		margin-bottom: 0; 
 	}
 	/******************************************ICLASSES A PARTIR DAQUI **************************************/
-	
+	.footer-logo{
+		width: 70px;
+	}
+	.font-size-title{
+		font-size: 1.5em;
+	}
+	.font-title{
+		font-size: 1.2em;
+	}
+	.font-title > p{
+		font-size: 1em;
+	}
 	.nav-own a{
 		padding-left: 3px;
 		text-align: center;
+	}
+	.rsp-footer-font-size{
+		font-size: 0.8em;
+		margin-bottom: 0px;
 	}
 
  }
