@@ -16,11 +16,11 @@
 	<body class="font-own">
 		<div class="row m-0"> <!-- ROW DO HEADER E CABEÇALHO-->
 			<nav class="container-fluid navbar navbar-expand-md p-0 m-0">
-				<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-					<span class="icone navbar-toggler-icon text-gray bg-nav"><i class="fas fa-align-justify fa-2x fa-fw"></i></span>
+				<button class="navbar-toggler border-0 p-0" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+					<span class="icone navbar-toggler-icon text-light"><i class="fas fa-align-justify fa-2x fa-fw"></i></span>
 				</button>
 				<div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-					<div class="mx-auto  navbar-nav">
+					<div class="mx-auto nav-own navbar-nav">
 					    <a class="nav-item nav-link active text-padrao1 bg-nav-active" href="#">Início <span class="sr-only">(current)</span></a>
 						<a class="nav-item nav-link text-gray bg-nav" href="ingles/index.html">Inglês</a>
 						<a class="nav-item nav-link text-gray bg-nav" href="libras/index.html">LIBRAS</a>
@@ -69,14 +69,14 @@
 									esse é um dos objetivos da ação de extensão do ensino no estado do Pará que vem em forma de um sonho antigo: o de trazer o Curso 
 									Livre de Língua Inglesa e de Libras ao Xingu, chancelado pela Universidade Federal do Pará (UFPA), ao campus de Altamira.<span value=1 class="d-sm-none">..</span>									
 								</p>
-								<p value=1 class="d-none d-sm-block text-justify">
+								<p value=1 class="d-none d-sm-block text-justify font-weight-normal">
 									E o mais fantástico da realização deste sonho é imprimir a marca da nossa universidade, que antes de qualquer coisa cria 
 									oportunidades ímpares, reais e democráticas de aprendizado a todos, sem distinção nenhuma, por meio de um corpo docente 
 									comprometido e altamente capacitado, preparado para, antes de qualquer coisa, lidar com pessoas – pois a educação é uma via de 
 									mão dupla, sempre ladeada ao elemento humano. 
 								</p>
-								<button name="but-show" value=1 class="mt-3 btn btn-block d-sm-none">Continue Lendo</button>
-								<button name="but-hide" value=1 class="d-none mt-3 btn btn-block">Ler menos</button>
+								<button name="but-show" value=1 class="mt-3 btn btn-block d-sm-none btn-info">Continue Lendo<i class="far fa-arrow-alt-circle-down fa-fw ml-3"></i></button>
+								<button name="but-hide" value=1 class="d-none mt-3 btn btn-block btn-info">Ler menos<i class="far fa-arrow-alt-circle-up fa-fw ml-3"></i></button>
 							</div>
 						</div>	
 						<div class="w-100 text-center mt-3">
@@ -88,13 +88,13 @@
 									<img src="imagens/estrutura.jpeg" class="card-image card-img-top" alt="">
 									<div class="card-body shadow">
 										<h3 class="card-title font-title">A Estrutura Física e Humana</h3>
-										<p class="card-text text-justify ">
-											O curso Livre é uma iniciativa da Faculdade de Letras do curso de Língua Inglesa, que hoje conta com um colegiado composto por oito professores de Inglês e um de libras, este também funcionará em um prédio novo com 5 salas de aula, tão quanto no bloco de 4 salas de aula da Faculdade de Letras no campus 1. Contamos também com um laboratório de linguagem, que serve de apoio no processo de ensino-aprendizagem.<span value=2>..</span>
+										<p class="card-text text-justify font-weight-normal mb-0">
+											O curso Livre é uma iniciativa da Faculdade de Letras do curso de Língua Inglesa, que hoje conta com um colegiado composto por oito professores de Inglês e um de libras, este também funcionará em um prédio novo com 5 salas de aula, tão quanto no bloco de 4 salas de aula da Faculdade de Letras no campus 1. Contamos também com um laboratório de linguagem, que serve de apoio no processo de ensino-aprendizagem.<span value=2 class="d-sm-none">..</span>
 										</p>
-										<p value=2 class="d-none text-justify">
+										<p value=2 class="d-none d-sm-block text-justify">
 			           						Contamos com os recursos, necessários como ar condicionado, computadores, quadros magnéticos, projetores de vídeo, bem como aparelhos de som, tendo em vista que estes são essenciais no processo de ensino-aprendizagem e um espaço de convivência. É através destes equipamentos que as 4 habilidades <strong>(leitura, escrita, fala e escuta)</strong> são treinadas. 
 										</p>
-										<button name="but-show" value=2 class="mt-3 btn btn-block">Continue Lendo</button>
+										<button name="but-show" value=2 class="mt-3 btn btn-block d-sm-none">Continue Lendo</button>
 										<button name="but-hide" value=2 class="d-none mt-3 btn btn-block">Ler menos</button>
 									</div>
 								</div>
@@ -140,15 +140,23 @@
 								</div>
 							</div>			
 						</div>
-						<div class="row my-3"> <!-- Perguntas Frequentes !-->
-							<div class="col-sm rounded mx-3 pt-3 bg-gray text-padrao2">	
+						<div class="row px-3 d-none d-md-block"> <!-- Perguntas Frequentes !-->
+							<div class="col-sm rounded pt-3 bg-gray text-padrao2 ">	
 								<div class="row">
 									<div class="w-100 text-center mb-2">
-										<h5 class="font-title font-size-title ">Perguntas Frequentes</h5>
+										<h5 class="font-title font-size-title ">
+											Perguntas Frequentes
+										</h5>
 									</div>
+
 									<div class="col-sm-6 text-justify">
-										<h5 class="font-weight-normal">1 -Quem pode se matricular nos Cursos Livres de Língua Inglesa e no de Libras?</h5>
-										<p class="pl-2">Qualquer membro da comunidade altamirense da região transamazônica Xingu que: estejam cursando o ensino médio ou que já tenham concluído o ensino médio, todos os alunos da Ufpa e de qualquer outra Faculdade/Universidade da região, e os demais que sonham em aprender um outro idioma serão todos bem vindos!</p><br>
+										<h5 class="font-weight-normal">
+											1 - Quem pode se matricular nos Cursos Livres de Língua Inglesa e no de Libras?
+										</h5>
+										<p class="pl-2">
+											Qualquer membro da comunidade altamirense da região transamazônica Xingu que: estejam cursando o ensino médio ou que já tenham concluído o ensino médio, todos os alunos da Ufpa e de qualquer outra Faculdade/Universidade da região, e os demais que sonham em aprender um outro idioma serão todos bem vindos!
+										</p><br>
+
 										<h5 class="font-weight-light">2 - Quando começam as novas turmas?</h5>
 										<p class="pl-2">As matrículas para as novas turmas começarão em janeiro de 2019, fique atento ao nosso website para terem acesso aos futuros editais.</p><br>
 										<h5 class="font-weight-light">3 - Como é a certificação?</h5>
@@ -160,8 +168,6 @@
 										</p>
 									</div>
 									<div class="col-sm-6 text-justify">
-										<h5 class="font-weight-light">5 - Sobre o pagamento das mensalidades, por serem GRU (boletos emitidos pelo governo federal), estes podem ser pagos após o vencimento?</h5>
-										<p class="pl-2">Não, é preciso entrar no site da Fadesp e solicitar um boleto novo.</p><br>
 										<h5 class="font-weight-light">6 - O boleto é enviado por e-mail?</h5>
 										<p class="pl-2">Não, pois se trata de uma GRU, guia do governo federal e estes não são aceitos após o vencimento contido nele.</p><br>	
 										<h5 class="font-weight-light">7 - Como solicitar a atualização do boleto através do link da Fadesp?</h5>
@@ -171,6 +177,121 @@
 										<h5 class="font-weight-light">9 -Caso o aluno tenha esquecido o seu número de registro e senha é possível resgata-los?</h5>
 										<p class="pl-2">Sim, clique na opção <strong>Localizar Registro Existente</strong> para recuperar seu registro.<br>Para recuperar sua senha clique na opção <strong>Lembrar Senha por e-mail</strong><br>
 										Acesse este link: <a href="http://cursos.fadesp.org.br/" target="_blank"> Clique Aqui.</a><br></p>			
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="row my-3 d-md-none"><!-- Perguntas Frequentes MOBILE!-->
+							<div class="col-sm-12">
+								<div class="accordion" id="accordionExample">
+									<div class="card">
+									    <div class="card-header" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne" id="headingOne">
+									      	<p class="mb-0 text-padrao2 font-weight-bold text-justify">
+									         1 - Quem pode se matricular nos Cursos Livres de Língua Inglesa e no de Libras?
+									     	 </p>
+									    </div>
+									    <div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#accordionExample">
+									      	<div class="card-body text-padrao2 text-justify p-2">
+									        Qualquer membro da comunidade altamirense da região transamazônica Xingu que: estejam cursando o ensino médio ou que já tenham concluído o ensino médio, todos os alunos da Ufpa e de qualquer outra Faculdade/Universidade da região, e os demais que sonham em aprender um outro idioma serão todos bem vindos!
+									      	</div>
+									    </div>
+									</div>
+									<div class="card">
+									    <div class="card-header" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne" id="headingOne">
+									      	<p class="mb-0 text-padrao2 font-weight-bold text-justify">
+									         2 - Quando começam as novas turmas?
+									     	 </p>
+									    </div>
+									    <div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#accordionExample">
+									      	<div class="card-body text-padrao2 text-justify p-2">
+									        As matrículas para as novas turmas começarão em janeiro de 2019, fique atento ao nosso website para terem acesso aos futuros editais.
+									      	</div>
+									    </div>
+									</div>
+									<div class="card">
+									    <div class="card-header" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne" id="headingOne">
+									      	<p class="mb-0 text-padrao2 font-weight-bold text-justify">
+									         3 - Como é a certificação?
+									     	 </p>
+									    </div>
+									    <div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#accordionExample">
+									      	<div class="card-body text-padrao2 text-justify p-2">
+									        Os cursos  são completos e certificados para UFPA-Universidade Federal do Pará.
+									      	</div>
+									    </div>
+									</div>
+									<div class="card">
+									    <div class="card-header" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne" id="headingOne">
+									      	<p class="mb-0 text-padrao2 font-weight-bold text-justify">
+									         4 - Os cursos Livres são válidos como graduação?
+									     	 </p>
+									    </div>
+									    <div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#accordionExample">
+									      	<div class="card-body text-padrao2 text-justify p-2">
+									        Não, Os cursos livres fazem parte da modalidade de Educação Profissional. Apesar de não serem reconhecidos pelo Ministério da Educação (MEC), têm base legal no Decreto nº 5.154/04 e na Portaria Nº 008/02.
+									      	</div>
+									    </div>
+									</div>
+									<div class="card">
+									    <div class="card-header" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne" id="headingOne">
+									      	<p class="mb-0 text-padrao2 font-weight-bold text-justify">
+									         5 - Sobre o pagamento das mensalidades, por serem GRU (boletos emitidos pelo governo federal), estes podem ser pagos após o vencimento?
+									     	 </p>
+									    </div>
+									    <div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#accordionExample">
+									      	<div class="card-body text-padrao2 text-justify p-2">
+									        Não, é preciso entrar no site da Fadesp e solicitar um boleto novo.
+									      	</div>
+									    </div>
+									</div>
+									<div class="card">
+									    <div class="card-header" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne" id="headingOne">
+									      	<p class="mb-0 text-padrao2 font-weight-bold text-justify">
+									         6 - O boleto é enviado por e-mail?
+									     	 </p>
+									    </div>
+									    <div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#accordionExample">
+									      	<div class="card-body text-padrao2 text-justify p-2">
+									        Não, pois se trata de uma GRU, guia do governo federal e estes não são aceitos após o vencimento contido nele.
+									      	</div>
+									    </div>
+									</div>
+									<div class="card">
+									    <div class="card-header" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne" id="headingOne">
+									      	<p class="mb-0 text-padrao2 font-weight-bold text-justify">
+									         7 - Como solicitar a atualização do boleto através do link da Fadesp?
+									     	 </p>
+									    </div>
+									    <div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#accordionExample">
+									      	<div class="card-body text-padrao2 text-justify p-2">
+									        Basta acessar o link inserir seus dados, os técnicos da Fadespe atualizarão os boletos para serem impressos por vocês.
+									      	</div>
+									    </div>
+									</div>
+									<div class="card">
+									    <div class="card-header" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne" id="headingOne">
+									      	<p class="mb-0 text-padrao2 font-weight-bold text-justify">
+									         8 - Como imprimir meu boleto atualizado?
+									     	 </p>
+									    </div>
+									    <div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#accordionExample">
+									      	<div class="card-body text-padrao2 text-justify p-2">
+									        O aluno terá seu pedido atendido e em seguida poderá entrar com seu número de registro e senha e imprimir um novo boleto no link a seguir.
+									      	</div>
+									    </div>
+									</div>
+									<div class="card">
+									    <div class="card-header" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne" id="headingOne">
+									      	<p class="mb-0 text-padrao2 font-weight-bold text-justify">
+									         9 -Caso o aluno tenha esquecido o seu número de registro e senha é possível resgata-los?
+									     	 </p>
+									    </div>
+									    <div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#accordionExample">
+									      	<div class="card-body text-padrao2 text-justify p-2">
+									        Sim, clique na opção <strong>Localizar Registro Existente</strong> para recuperar seu registro.<br>Para recuperar sua senha clique na opção <strong>Lembrar Senha por e-mail</strong><br>
+											Acesse este link:  <a href="http://cursos.fadesp.org.br/" target="_blank"> Clique Aqui.</a>
+									      	</div>
+									    </div>
 									</div>
 								</div>
 							</div>
@@ -190,35 +311,8 @@
 					<div class="w-100 bg-sidebar my-3 rounded p-2 text-padrao2">
 						<h5 class="font-title text-center">Últimas Notícias</h5>
 						<hr>
-						<div class="card w-100 mb-3">
-							<img class="card-img-top" src="https://via.placeholder.com/350x150" alt="noticia">
-							<div class="card-body">
-								<h5 class="card-title">Aberta as Incrições para 2019</h5>
-							</div>
-						</div>
-						<div class="card w-100 my-3">
-							<img class="card-img-top" src="https://via.placeholder.com/350x150" alt="noticia">
-							<div class="card-body">
-								<h5 class="card-title">Aberta as Incrições para 2019</h5>
-							</div>
-						</div>
-						<div class="card w-100 my-3">
-							<img class="card-img-top" src="https://via.placeholder.com/350x150" alt="noticia">
-							<div class="card-body">
-								<h5 class="card-title">Aberta as Incrições para 2019</h5>
-							</div>
-						</div>
-						<div class="card w-100 my-3">
-							<img class="card-img-top" src="https://via.placeholder.com/350x150" alt="noticia">
-							<div class="card-body">
-								<h5 class="card-title">Aberta as Incrições para 2019</h5>
-							</div>
-						</div>
-						<div class="card w-100 my-3">
-							<img class="card-img-top" src="https://via.placeholder.com/350x150" alt="noticia">
-							<div class="card-body">
-								<h5 class="card-title">Aberta as Incrições para 2019</h5>
-							</div>
+						<div id="news">
+							
 						</div>						
 					</div>
 				</div>
@@ -272,6 +366,7 @@
 		<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
 		<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
 		<script type="text/javascript" src="js/scripts.js"></script>
+		<script type="text/javascript" src="js/news.js"></script>
 	</body>
 	<!--<script>
 		$('.teste').addClass("bg-gray text-padrao2");

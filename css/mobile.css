@@ -30,6 +30,13 @@
 		font-size: 1.5em;
 		margin-bottom: 0; 
 	}
+	/******************************************ICLASSES A PARTIR DAQUI **************************************/
+	
+	.nav-own a{
+		padding-left: 3px;
+		text-align: center;
+	}
+
  }
 
 /*// Small devices (landscape phones, less than 768px)*/
