@@ -16,20 +16,32 @@
 	<body class="font-own">
 		<div class="row m-0"> <!-- ROW DO HEADER E CABEÇALHO-->
 			<nav class="container-fluid navbar navbar-expand-md p-0 m-0">
-				<button class="navbar-toggler border-0 p-0" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-					<span class="icone navbar-toggler-icon text-light"><i class="fas fa-align-justify fa-2x fa-fw"></i></span>
-				</button>
-				<div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-					<div class="mx-auto nav-own navbar-nav">
-					    <a class="nav-item nav-link active text-padrao1 bg-nav-active" href="#">Início <span class="sr-only">(current)</span></a>
-						<a class="nav-item nav-link text-gray bg-nav" href="ingles/index.html">Inglês</a>
-						<a class="nav-item nav-link text-gray bg-nav" href="libras/index.html">LIBRAS</a>
-						<a class="nav-item nav-link text-gray bg-nav" href="noticias/index.html">Notícias</a>
-						<a class="nav-item nav-link text-gray bg-nav" href="editais-e-resultados/index.html">Editais, Resultados & Formulários</a>
-						<a class="nav-item nav-link text-gray bg-nav" href="editais-e-resultados/index.html">Galeria</a>
+					<div class="col-md-6 d-none d-sm-block text-center px-0">
+						<img class="img-fluid d-inline m-0 " style="width: 35px; height: 35px;" src="imagens/ufpa-logo.png" alt="logo ufpa">
+						<p class="m-0 font-weight-light text-light d-inline align-middle">Universidade Federal do Pará - Campus Altamira</p>
 					</div>
-				</div>
-			</nav>
+					<div class="col-md-6 px-0">
+						<p id="ufpa" class="font-weight-light text-light font-title d-inline d-none d-md-none m-0">UFPA - Campus Altamira</p>
+						<img class="img-fluid d-inline m-0 mr-2 float-right d-none d-md-none" style="width: 40px; height: 35px;" src="imagens/ufpa-logo.png" alt="logo ufpa">
+						
+						<button class="float-left navbar-toggler border-0 p-0" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+							<span class="icone navbar-toggler-icon text-light">
+								<i class="fas fa-align-justify fa-2x fa-fw"></i>
+							</span>
+						</button>
+						<div class="collapse navbar-collapse align-left" id="navbarNavAltMarkup">
+							<div class="nav-own navbar-nav">
+							    <a class="nav-item nav-link active text-padrao1 bg-nav-active" href="#">Início <span class="sr-only">(current)</span></a>
+								<a class="nav-item nav-link text-gray bg-nav" href="ingles/index.html">Inglês</a>
+								<a class="nav-item nav-link text-gray bg-nav" href="libras/index.html">LIBRAS</a>
+								<a class="nav-item nav-link text-gray bg-nav" href="noticias/index.html">Notícias</a>
+								<a class="nav-item nav-link text-gray bg-nav" href="editais-e-resultados/index.html">Editais, Resultados & Formulários</a>
+								<a class="nav-item nav-link text-gray bg-nav" href="editais-e-resultados/index.html">Galeria</a>
+							</div>
+						</div>
+					</div>
+			</nav>	
+						
 			<header>
 				<div class="container-fluid px-0 m-0">			
 					<div id="banner" class="px-0 m-0"> 
@@ -44,9 +56,9 @@
 										<div class="col col-sm-12">
 											<img id="logo-banner" class="img-fluid" src="imagens/final-logo.png" alt="curso-livre-logo"> 
 										</div>
-										<div class="col">
-											<h2 class="font-weight-light text-center text-light">Cursos Livres</h2>
-											<h1 class="font-weight-light text-center text-light"><strong>Língua Inglesa e de LIBRAS</strong></h1>
+										<div class="col font-weight-light text-left text-md-center text-light">
+											<h2>Cursos Livres</h2>
+											<h1>Língua Inglesa e de LIBRAS</h1>
 										</div>
 									</div>
 								</div>
@@ -106,7 +118,7 @@
 							</div>
 							<div class="col-md-6 mb-3">
 								<div class="card own-card-first bg-gray text-padrao2">
-									<img src="imagens/team.jpeg" class="card-image card-img-top" alt="nossa equipe">
+									<img src="imagens/card-equipe.jpg" class="card-image card-img-top" alt="nossa equipe">
 									<div class="card-body shadow">
 										<h3 class="font-title card-title">A Equipe Técnica</h3>
 										<p class="card-text text-justify"> 

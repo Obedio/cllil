@@ -55,6 +55,9 @@ nav{
 .bg-nav{
 	background-color: rgba(191,33,30, 0.8);
 }
+.bg-nav1{
+	background-color: rgba(191,33,30, 0.8);
+}
 .bg-nav:hover{
 	background-color: rgba(245,245,245, 1);
 }
