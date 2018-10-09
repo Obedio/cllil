@@ -13,13 +13,15 @@ nav{
 #banner {
 	width: 100%;
 	background-image: linear-gradient(to right, transparent 15%, #08548C 100%), url(../imagens/banner-books.jpg);
-	background-repeat: no-repeat;
+	background-repeat: ;
+	background-size: contain;
 }
 #frases{
 	font-family: 'Shadows Into Light', cursive;
 	font-size: 30px;
 	padding-top: 3%;
 	padding-right: 6%;
+	text-shadow: 1px 1px 1px black;
 }
 #logo-banner{
 	margin-top: 30px;
