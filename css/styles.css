@@ -12,8 +12,7 @@ nav{
 /******************************************IDs A PARTIR DAQUI **************************************/
 #banner {
 	width: 100%;
-	height: 350px;
-	background-image: linear-gradient(to right, transparent 30%, #08548C 40%), url("../imagens/house.jpg");
+	background-image: linear-gradient(to right, transparent 15%, #08548C 100%), url(../imagens/banner-books.jpg);
 	background-repeat: no-repeat;
 }
 #frases{
@@ -26,12 +25,6 @@ nav{
 	margin-top: 30px;
 	width: 250px; 
 	height: 160px;
-}
-#overlay{
-	width: 100%;
-	height: 350px;
-	background-image: linear-gradient(to right, transparent 15%, #08548C 90%);
-	background-repeat: no-repeat;
 }
 #row-middle{
 		margin-right: 16px;
