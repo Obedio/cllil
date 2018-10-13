@@ -39,6 +39,9 @@
 		font-size: 1.4em;
 	}
 	/******************************************ICLASSES A PARTIR DAQUI **************************************/
+	.card-img-top{
+		min-height: 180px;
+	}
 	.footer-logo{
 		width: 70px;
 	}
@@ -55,6 +58,20 @@
 	.rsp-footer-font-size{
 		font-size: 0.8em;
 		margin-bottom: 0px;
+	}
+	.display-6{
+		font-size: 1em !important; 
+	}
+	.slider-noticia{
+		min-height: 220px;
+	}
+	.slider-noticia-titulo{
+		color: #08548C;
+		font-size: 1em;
+		font-family: 'Poiret One', cursive;
+	}
+	.titulo-noticia{
+		font-size: 2em !important;
 	}
 
  }
