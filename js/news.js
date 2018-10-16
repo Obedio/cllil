@@ -4,6 +4,12 @@ $(document).ready(function () {
 
 	let news = [
 	{
+		"img": "curso-intensivo.jpg",
+		"altImg": "Curso Intensivo",
+		"ahref": "curso-intensivo.html",
+		"titulo": "Lançamento do Curso Intensivo de Inglês"
+	},
+	{
 		"img": "informativo.jpg",
 		"altImg": "informativo",
 		"ahref": "aviso-de-aula-13-10.html",
@@ -21,18 +27,6 @@ $(document).ready(function () {
 		"ahref": "aula-inaugural-libras.html",
 		"titulo": "Aula Inaugural de Libras"
 	},
-	{
-		"img": "https://via.placeholder.com/350x150",
-		"altImg": "noticia",
-		"ahref": "",
-		"titulo": "Aberta as Incrições para 2019"
-	},
-	{
-		"img": "https://via.placeholder.com/350x150",
-		"altImg": "noticia",
-		"ahref": "",
-		"titulo": "Aberta as Incrições para 2019"
-	}
 	];
 
 	let noticias = '';
@@ -46,7 +40,7 @@ $(document).ready(function () {
 			'</div>' +
 		'</div>';
 
-		if (noticia == 2)
+		if (noticia == 3)
 			break;
 	}
 
