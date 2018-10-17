@@ -23,6 +23,17 @@ nav{
 	padding-right: 6%;
 	text-shadow: 1px 1px 1px black;
 }
+
+#img-ufpa-footer, #img-fale{
+	width: 80px;
+	height: 95px;
+	margin-bottom: 16px;
+	margin-left: 20px;
+}
+#img-richmond, #img-fadesp{
+	width: 47%;
+	height: 70px;
+}
 #logo-banner{
 	margin-top: 30px;
 	width: 250px; 
@@ -75,9 +86,6 @@ nav{
 .display-6{
 	font-size: 1.5em !important;
 }
-.footer-logo{
-	width: 100px;
-}
 .font-own{
 	font-family: 'Titillium Web', sans-serif;
 }
@@ -98,12 +106,6 @@ nav{
 .img-mais-noticias{
 	height: 50px;
 	width: 50px;
-}
-.own-card-first {
-	min-height: 730px;
-}
-.own-card-second{
-	min-height: 420px;
 }
 .slider-noticia{
 	min-height: 400px;

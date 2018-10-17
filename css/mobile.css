@@ -6,6 +6,10 @@
 	#banner, #overlay {
 		max-height: 150px;
 	}
+	#img-richmond, #img-fadesp{
+		width: 45%;
+		height: 60px;
+	}
 
 	#logo-banner{
 		padding-top: 20px; 
@@ -13,6 +17,7 @@
 		height: 80%;
 		margin-top: 0;
 	}
+	
 	#row-middle{
 		margin: 0 2px;
 	}
@@ -77,7 +82,23 @@
  }
 
 /*// Small devices (landscape phones, less than 768px)*/
-@media (max-width: 767.98px) { ... }
+@media (max-width: 767.98px) {
+	/******************************************IDs A PARTIR DAQUI **************************************/
+	#img-ufpa-footer, #img-fale{
+		width: 50px;
+		height: 65px;
+		margin-bottom: 16px;
+		margin-left: 10px;
+	}
+	#img-richmond, #img-fadesp{
+		width: 95%;
+		height: 60px;
+	}
+	#img-fadesp{
+		margin-bottom: 5px;
+	}
+
+}
 
 /*/ Medium devices (tablets, less than 992px)*/
 @media (max-width: 991.98px) { ... }
